@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/@altv"],
+    "strict": true
+  }
+}

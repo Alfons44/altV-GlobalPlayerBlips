@@ -1,2 +1,2 @@
-# altV-globalplayerblips
-alt:V Script for Global Player Blips
+# alt-V---TrainSystem
+alt:V Global Player blip System made by @Alfons_44 & @Lucas
