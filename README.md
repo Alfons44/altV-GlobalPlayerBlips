@@ -1,5 +1,3 @@
-# alt:V Global Player Blips
-
 ## Features
 * Synced Player Blips over the whole Map
 * Smooth Sync (update every 50ms)
