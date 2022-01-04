@@ -42,9 +42,6 @@ const vehicleSprite = [
 const createdBlips: PointBlip[] = []
 PointBlip.all.forEach(blip => blip.destroy())
 on('playerConnect', async (player: Player) => {
-  player.spawn(813, -279, 66, 1000);
-  player.model = 'a_f_y_tennis_01'
-
   const playerBlip = new PointBlip(0,0,0)
   playerBlip.alpha = 0
   createdBlips[player.id] = playerBlip
