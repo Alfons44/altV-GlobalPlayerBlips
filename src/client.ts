@@ -15,7 +15,7 @@ onServer('server::globalPlayerBlips::hide::blipFromPlayer', (player: Player) => 
 
 onServer('client::globalPlayerBlips::get::vehicleClass', async () => {
   let veh: Vehicle = Player.local.vehicle as Vehicle
-  const interval = setTimeout(() => {
+  const timeout = setTimeout(() => {
     veh = Player.local.vehicle as Vehicle
     if(veh.scriptID) {
       emitServerRaw('client::globalPlayerBlips::set::vehicleClass', getVehicleClass(veh.scriptID))
